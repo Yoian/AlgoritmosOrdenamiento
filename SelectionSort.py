@@ -13,6 +13,7 @@ def selectionSort(array):
 
 lista = [randrange(1,300,8) for i in range(10)]
 
-print("La lista desordenada se ve asi",lista)
-selectionSort(lista)
-print("La lista ordenada se ve asi",lista)
+if __name__ == "__main__":    
+    print("La lista desordenada se ve asi",lista)
+    selectionSort(lista)
+    print("La lista ordenada se ve asi",lista)
